@@ -1,0 +1,59 @@
+.app-wrapper {
+    width: 90%;
+    margin: 10px auto;
+}
+.app-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.app-container {
+    margin-top: 3em;
+}
+.contacts-wrapper {
+    position: absolute;
+    left: 10px;
+    padding-top: 10px;
+    height: auto;
+}
+.contact-list {
+    background: #fff;
+    position: relative;
+    top: 0px;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    /*css3 transition with vendor prefixes*/
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.contact-list label {
+    display: block;
+}
+.contact-list:hover {
+    /*scale to 150% than the origial*/
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    z-index: 100;
+    cursor: pointer;
+}
+.property-panel {
+    padding-top: 15px;
+    float: right;
+}
+.box-shadow {
+    /*css3 box-shadow with vendor prefixes*/
+    -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    -ms-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+

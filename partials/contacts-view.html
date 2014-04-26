@@ -1,0 +1,8 @@
+<div class="col-md-3 contact-list box-shadow" ng-repeat="contact in Contacts" ng-click="setCurrentContact(contact.id)">
+    <img ng-src="images/{{contact.gender}}.png">
+    <label>
+        <a href="#" ng-click="setCurrentContact(contact.id)">
+            {{contact.name}}
+        </a>
+    </label>
+</div>
