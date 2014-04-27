@@ -2,7 +2,7 @@
     "id": "01",
     "name": "ContactName1",
     "gender": "Male",
-    "country": "India",
+    "country": "China",
     "phone": "9906123456",
     "favorites": true,
     "blocked": false
@@ -18,7 +18,7 @@
     "id": "03",
     "name": "ContactName3",
     "gender": "Male",
-    "country": "Japan",
+    "country": "Germany",
     "phone": "7774005115",
     "favorites": true,
     "blocked": true
@@ -34,7 +34,7 @@
     "id": "05",
     "name": "ContactName5",
     "gender": "Male",
-    "country": "Japan",
+    "country": "Singapore",
     "phone": "7774005115",
     "favorites": true,
     "blocked": true

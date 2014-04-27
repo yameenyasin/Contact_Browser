@@ -21,7 +21,7 @@ function appController($scope, $http) {
     $scope.currentContact = null;
 
     //set selected contact
-    $scope.setCurrentContact = function(id) {
-        $scope.currentContact = $scope.Contacts[id - 1];
+    $scope.setCurrentContact = function(contact) {
+        $scope.currentContact = contact;
     };
 }
