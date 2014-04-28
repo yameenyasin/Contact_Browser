@@ -12,11 +12,17 @@
     <nav class="navbar navbar-inverse" role="navigation" ng-include src="headerURL"></nav>
     <div class="container-fluid app-wrapper">
         <div class="col-md-12 app-header">
-            <h3>My Contacts</h3>
+            <label>My Contacts</label>
+            <!--Search Button-->
+            <form class="navbar-right" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search Contact" ng-model="searchText.name">
+                </div>
+            </form>
         </div>
-        <div class="col-md-12 app-container" >
+        <div class="col-md-12 app-container">
             <!--Including Contacts partial-->
-            <div class="col-md-9 contacts-wrapper" ng-include src="contactURL"></div>             
+            <div class="col-md-9 contacts-wrapper" ng-include src="contactURL"></div>
             <!--Including Property Window partial-->
             <div class="col-md-3 property-panel" ng-include src="propertyURL"></div>
         </div>
